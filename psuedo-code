@@ -1,0 +1,7 @@
+Vi starter ud med at lave objekter for de forskellige dyr og deres forskellige egenskaber såsom Navn, billed og en beskrivelse
+Der bliver lavet en funtion og den bliver kaldt på når siden læser den igennem. 
+Inde i vores funktion laves der et 'For In' loop fordi vi skal kunne loope vores objekter. 
+Forskellige slags tags som Figure, H2, img og p-tags bliver lavet vha CreateElement. 
+De forskellige elementer får en attribute på. Variabel.innerText = Variabel.CreateElement
+Variablerne bliver appended til vores figure card og kommer til at stå på den måde vi gerne vil have det.
+Til aller sidst appender vi det hele til vores main sektion, nemlig vores app.

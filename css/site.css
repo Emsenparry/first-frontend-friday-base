@@ -13,11 +13,14 @@ h2 {
   font-family: "Merriweather", serif;
   font-size: 2em;
   text-transform: capitalize;
+  display: flex;
+  justify-content: center;
 }
 
 p {
   font-family: "Oswald", sans-serif;
   font-size: 1.2em;
+  margin: 1em;
 }
 
 header {
@@ -31,3 +34,25 @@ header p {
   padding: 0px;
   margin: 0px;
 }
+
+img {
+  max-width: 375px;
+  max-height: 500px;
+  
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+figure {
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: rgb(237, 237, 237);
+  min-height: 400px;
+  width: 375px;
+}
+
